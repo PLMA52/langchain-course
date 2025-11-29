@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import os
 
 from dotenv import load_dotenv
@@ -76,6 +77,38 @@ if __name__ == "__main__":
 # from dotenv import load_dotenv
 # import os
 # from openai import OpenAI
+=======
+from dotenv import load_dotenv
+ 
+>>>>>>> 6528731f58ecb4fb7abe4bd6eaa11722c531bbea
+
+# load_dotenv(override=True)
+
+<<<<<<< HEAD
+# print("ENV KEY:", repr(os.getenv("OPENAI_API_KEY")))
+
+# client = OpenAI()
+
+# resp = client.chat.completions.create(
+#     model="gpt-5",
+#     messages=[
+#         {"role": "user", "content": "Say hello from a tiny Python test script."},
+#     ],
+# )
+
+=======
+
+def main():
+    print("Hello from langchain-course!")
+    
+
+
+if __name__ == "__main__":
+        main()
+
+# from dotenv import load_dotenv
+# import os
+# from openai import OpenAI
 
 # load_dotenv(override=True)
 
@@ -90,5 +123,6 @@ if __name__ == "__main__":
 #     ],
 # )
 
+>>>>>>> 6528731f58ecb4fb7abe4bd6eaa11722c531bbea
 # print("RESPONSE:", resp.choices[0].message.content)
 
